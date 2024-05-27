@@ -1,18 +1,17 @@
-public class ContaPoupanca extends Conta{
+package main.java.banco;
 
-    public ContaPoupanca(Cliente cliente) {
+public class ContaCorrente extends Conta {
+    public ContaCorrente(Cliente cliente) {
         super(cliente);
     }
 
     @Override
     public void imprimirExtrato(){
         if (!extrato.isEmpty()) {
-            System.out.println("\n==== Extrato Conta Poupanca ====");
+            System.out.println("\n==== Extrato main.java.banco.Conta Corrente ====");
             extrato.forEach(System.out::println);
         } else {
             System.out.println("Nenhuma operacao realizada!");
         }
     }
-
-
 }

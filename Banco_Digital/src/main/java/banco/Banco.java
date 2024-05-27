@@ -1,3 +1,5 @@
+package main.java.banco;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +30,7 @@ public class Banco {
 
     @Override
     public String toString() {
-        return "Banco "+ nome +
+        return "main.java.banco.Banco "+ nome +
                 "Contas ativas" + contas.size();
     }
 }

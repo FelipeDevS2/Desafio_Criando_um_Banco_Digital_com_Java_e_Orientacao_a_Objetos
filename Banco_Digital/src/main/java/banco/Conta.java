@@ -1,6 +1,7 @@
+package main.java.banco;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public abstract class Conta implements IConta{
 
@@ -89,7 +90,7 @@ public abstract class Conta implements IConta{
     @Override
     public String toString() {
         return "\nTitular: " + cliente +
-                "\nConta: "+ numero +
+                "\nmain.java.banco.Conta: "+ numero +
                 "\nAgencia: " + agencia +
                 "\nSaldo: R$" +String.format("%.2f",saldo);
     }

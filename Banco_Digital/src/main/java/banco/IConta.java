@@ -1,3 +1,5 @@
+package main.java.banco;
+
 public interface IConta {
     void depositar(double valor);
 

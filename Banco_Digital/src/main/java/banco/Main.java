@@ -1,3 +1,5 @@
+package main.java.banco;
+
 public class Main {
     public static void main(String[] args) {
         Conta cc = new ContaCorrente(new Cliente("felipe nascimento"));

@@ -1,3 +1,5 @@
+package main.java.banco;
+
 public class Cliente {
     private String nome;
 
